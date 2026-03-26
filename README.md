@@ -29,7 +29,7 @@ class VahiniChilukamarri:
         self.cgpa       = 9.12
         self.year       = "3rd Year B.Tech CSE"
         self.location   = "Hyderabad, India"
-
+        self.portfolio = "https://vahini-dev.vercel.app/"
     def current_focus(self):
         return [
             "⚙️  LLM Evaluation & RAG pipelines (EvalEngine)",
@@ -52,7 +52,7 @@ class VahiniChilukamarri:
 |---|---|
 | **LLM Evaluation & Improvement System** | **AI Business Intelligence Dashboard** |
 | Modular pipeline that generates, scores & ranks AI responses using multi-metric analysis. LLM-as-a-judge ranking with reasoning + feedback-driven refinement loop. | End-to-end NL-to-SQL pipeline — non-technical users query CSV data in plain English, get real-time visual insights via React + FastAPI. |
-| `Python` `Streamlit` `LLM APIs` `Prompt Engineering` `RAG` | `React` `FastAPI` `Pandas` `LLM APIs` `SQL` |
+| `Python` `Streamlit` `LLM APIs` `RAG` | `React` `FastAPI` `Pandas` `LLM APIs` `SQL` |
 | 🔁 Feedback refinement loop &nbsp;·&nbsp; 🔍 RAG *(in progress)* | 💬 Natural Language → SQL &nbsp;·&nbsp; 📊 Real-time viz |
 | [![](https://img.shields.io/badge/GitHub-EvalEngine-181717?style=flat-square&logo=github)](https://github.com/vahinichilukamarri/llm-evaluation-engine) | [![](https://img.shields.io/badge/GitHub-AskBI-181717?style=flat-square&logo=github)](https://github.com/vahinichilukamarri/AskBI) |
 
@@ -175,6 +175,7 @@ class VahiniChilukamarri:
 *Open to AI/ML and SWE internship opportunities — let's connect!*
 
 [![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/vahini)
+[![Portfolio](https://img.shields.io/badge/View_Portfolio-%23000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vahini-dev.vercel.app/)
 [![Email](https://img.shields.io/badge/Send_an_Email-%23EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vahinivenkatac@gmail.com)
 [![GitHub](https://img.shields.io/badge/Follow_on_GitHub-%23181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vahinichilukamarri)
 
