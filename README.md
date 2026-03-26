@@ -11,6 +11,7 @@
 <!-- Badges -->
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-vahini-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/vahini)
 [![GitHub](https://img.shields.io/badge/GitHub-vahinichilukamarri-%23181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vahinichilukamarri)
+[![Portfolio](https://img.shields.io/badge/Portfolio-vahini--dev-%23000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vahini-dev.vercel.app/)
 [![Email](https://img.shields.io/badge/Email-vahinivenkatac@gmail.com-%23EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vahinivenkatac@gmail.com)
 [![Location](https://img.shields.io/badge/📍-Hyderabad,_India-green?style=for-the-badge)](https://github.com/vahinichilukamarri)
 
