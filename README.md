@@ -9,7 +9,7 @@
 <br/>
 
 <!-- Badges -->
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-vahini-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/vahini)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-vahini-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/venkata-vahini-chilukamarri-2b5064314/)
 [![GitHub](https://img.shields.io/badge/GitHub-vahinichilukamarri-%23181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vahinichilukamarri)
 [![Portfolio](https://img.shields.io/badge/Portfolio-vahini--dev-%23000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vahini-dev.vercel.app/)
 [![Email](https://img.shields.io/badge/Email-vahinivenkatac@gmail.com-%23EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vahinivenkatac@gmail.com)
@@ -28,7 +28,7 @@ class VahiniChilukamarri:
         self.role       = "AI/ML Engineer & Full-Stack Developer"
         self.university = "Keshav Memorial Institute of Technology (KMIT)"
         self.cgpa       = 9.12
-        self.year       = "3rd Year B.Tech CSE"
+        self.year       = "4th Year B.Tech CSE"
         self.location   = "Hyderabad, India"
         self.portfolio = "https://vahini-dev.vercel.app/"
     def current_focus(self):
@@ -175,7 +175,7 @@ class VahiniChilukamarri:
 
 *Open to AI/ML and SWE internship opportunities — let's connect!*
 
-[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/vahini)
+[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/venkata-vahini-chilukamarri-2b5064314/)
 [![Portfolio](https://img.shields.io/badge/View_Portfolio-%23000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vahini-dev.vercel.app/)
 [![Email](https://img.shields.io/badge/Send_an_Email-%23EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vahinivenkatac@gmail.com)
 [![GitHub](https://img.shields.io/badge/Follow_on_GitHub-%23181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vahinichilukamarri)
