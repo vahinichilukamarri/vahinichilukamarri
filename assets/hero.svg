@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" width="1000" height="320" role="img" aria-label="Venkata Vahini Chilukamarri — Backend, Distributed Systems, AI Engineering">
+  <style>
+    .sans{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif}
+    .mono{font-family:'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace}
+    .in{animation:in 1s cubic-bezier(.2,.8,.2,1) both}
+    .d1{animation-delay:.15s}.d2{animation-delay:.35s}.d3{animation-delay:.6s}.d4{animation-delay:.85s}
+    @keyframes in{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+    .cursor{animation:blink 1s steps(1) infinite}
+    @keyframes blink{50%{opacity:0}}
+    .node{animation:pulse 3s ease-in-out infinite}
+    .n2{animation-delay:.5s}.n3{animation-delay:1s}.n4{animation-delay:1.5s}.n5{animation-delay:2s}.n6{animation-delay:2.5s}
+    @keyframes pulse{0%,100%{opacity:.55}50%{opacity:1}}
+    .edge{stroke-dasharray:4 6;animation:flow 2.4s linear infinite}
+    @keyframes flow{to{stroke-dashoffset:-40}}
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#090B16"/><stop offset=".55" stop-color="#15113A"/><stop offset="1" stop-color="#2E1065"/>
+    </linearGradient>
+    <linearGradient id="name" gradientUnits="userSpaceOnUse" x1="60" y1="0" x2="560" y2="0" spreadMethod="reflect">
+      <stop offset="0" stop-color="#C4B5FD"/><stop offset=".5" stop-color="#38BDF8"/><stop offset="1" stop-color="#F472B6"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="1000 0" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#FFFFFF" stroke-opacity=".045"/>
+    </pattern>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="45"/></filter>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="card"><rect width="1000" height="320" rx="20"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1000" height="320" fill="url(#bg)"/>
+    <rect width="1000" height="320" fill="url(#grid)"/>
+    <circle cx="830" cy="90" r="150" fill="#7C3AED" opacity=".38" filter="url(#blur)">
+      <animate attributeName="r" values="140;175;140" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="140" cy="320" r="130" fill="#0EA5E9" opacity=".22" filter="url(#blur)">
+      <animate attributeName="cx" values="120;220;120" dur="11s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- distributed-system constellation -->
+    <g stroke="#A78BFA" stroke-opacity=".5" stroke-width="1.4" fill="none">
+      <path class="edge" d="M700 95 L820 62"/>
+      <path class="edge" d="M820 62 L925 135"/>
+      <path class="edge" d="M700 95 L765 192"/>
+      <path class="edge" d="M765 192 L925 135"/>
+      <path class="edge" d="M765 192 L880 248"/>
+      <path class="edge" d="M925 135 L880 248"/>
+      <path class="edge" d="M765 192 L670 252"/>
+      <path class="edge" d="M670 252 L880 248"/>
+    </g>
+    <g filter="url(#glow)">
+      <circle class="node" cx="700" cy="95" r="7" fill="#A78BFA"/>
+      <circle class="node n2" cx="820" cy="62" r="6" fill="#38BDF8"/>
+      <circle class="node n3" cx="925" cy="135" r="8" fill="#F472B6"/>
+      <circle class="node n4" cx="765" cy="192" r="10" fill="#C4B5FD"/>
+      <circle class="node n5" cx="880" cy="248" r="6" fill="#38BDF8"/>
+      <circle class="node n6" cx="670" cy="252" r="6" fill="#A78BFA"/>
+    </g>
+    <g class="mono" font-size="11" fill="#94A3B8">
+      <text x="684" y="80">api</text>
+      <text x="806" y="46">ledger</text>
+      <text x="938" y="139">kafka</text>
+      <text x="783" y="196">agent</text>
+      <text x="893" y="266">ops</text>
+      <text x="630" y="275">otel</text>
+    </g>
+    <!-- packets -->
+    <g filter="url(#glow)">
+      <circle r="3.5" fill="#FFFFFF">
+        <animateMotion dur="5s" repeatCount="indefinite" path="M700 95 L820 62 L925 135 L880 248 L670 252 L765 192 L700 95"/>
+      </circle>
+      <circle r="3" fill="#38BDF8">
+        <animateMotion dur="4s" begin="1.2s" repeatCount="indefinite" path="M765 192 L925 135 L820 62 L700 95 L765 192"/>
+      </circle>
+      <circle r="3" fill="#F472B6">
+        <animateMotion dur="3.4s" begin=".6s" repeatCount="indefinite" path="M670 252 L880 248 L765 192 L670 252"/>
+      </circle>
+    </g>
+
+    <!-- text -->
+    <text class="mono in" x="60" y="78" font-size="15" fill="#94A3B8">// hello, world — i'm</text>
+    <text class="sans in d1" x="58" y="140" font-size="58" font-weight="800" fill="url(#name)" letter-spacing="-1">Venkata Vahini</text>
+    <text class="sans in d2" x="58" y="200" font-size="58" font-weight="800" fill="url(#name)" letter-spacing="-1">Chilukamarri</text>
+    <text class="sans in d3" x="60" y="244" font-size="19" fill="#E2E8F0">Backend  ·  Distributed Systems  ·  AI Engineering</text>
+    <g class="in d4">
+      <text class="mono" x="60" y="284" font-size="15" fill="#38BDF8">$ ship --idempotent --observable --intelligent</text>
+      <rect class="cursor" x="398" y="271" width="9" height="17" fill="#38BDF8"/>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="999" height="319" rx="20" fill="none" stroke="#A78BFA" stroke-opacity=".25"/>
+</svg>

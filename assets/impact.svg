@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 160" width="1000" height="160" role="img" aria-label="Impact: +42% revenue recovered, +23% recovery rate, exactly one effect per idempotency key, 9.12 CGPA">
+  <style>
+    .sans{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif}
+    .mono{font-family:'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace}
+    .tile{animation:rise .9s cubic-bezier(.2,.8,.2,1) both}
+    .a2{animation-delay:.15s}.a3{animation-delay:.3s}.a4{animation-delay:.45s}
+    @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+    .bar{animation:sweep 3.5s ease-in-out infinite}
+    .b2{animation-delay:.6s}.b3{animation-delay:1.2s}.b4{animation-delay:1.8s}
+    @keyframes sweep{0%{transform:translateX(-80px);opacity:0}20%{opacity:1}80%{opacity:1}100%{transform:translateX(230px);opacity:0}}
+  </style>
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C4B5FD"/><stop offset="1" stop-color="#38BDF8"/></linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#38BDF8"/><stop offset="1" stop-color="#34D399"/></linearGradient>
+    <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F472B6"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+    <linearGradient id="g4" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FBBF24"/><stop offset="1" stop-color="#F472B6"/></linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset=".5" stop-color="#FFFFFF" stop-opacity=".9"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+    <clipPath id="c1"><rect x="10" y="134" width="230" height="3"/></clipPath>
+    <clipPath id="c2"><rect x="260" y="134" width="230" height="3"/></clipPath>
+    <clipPath id="c3"><rect x="510" y="134" width="230" height="3"/></clipPath>
+    <clipPath id="c4"><rect x="760" y="134" width="230" height="3"/></clipPath>
+  </defs>
+
+  <g class="tile">
+    <rect x="10" y="14" width="230" height="124" rx="14" fill="#0E1022" stroke="#A78BFA" stroke-opacity=".35"/>
+    <text class="sans" x="30" y="70" font-size="44" font-weight="800" fill="url(#g1)">+42%</text>
+    <text class="sans" x="30" y="96" font-size="13" fill="#E2E8F0">more revenue recovered</text>
+    <text class="mono" x="30" y="116" font-size="10.5" fill="#64748B">TRACE vs fixed-rules baseline</text>
+    <g clip-path="url(#c1)"><rect class="bar" x="10" y="134" width="80" height="3" fill="url(#shine)"/></g>
+  </g>
+  <g class="tile a2">
+    <rect x="260" y="14" width="230" height="124" rx="14" fill="#0E1022" stroke="#38BDF8" stroke-opacity=".35"/>
+    <text class="sans" x="280" y="70" font-size="44" font-weight="800" fill="url(#g2)">+23%</text>
+    <text class="sans" x="280" y="96" font-size="13" fill="#E2E8F0">higher relative recovery rate</text>
+    <text class="mono" x="280" y="116" font-size="10.5" fill="#64748B">same 300 failed transactions</text>
+    <g clip-path="url(#c2)"><rect class="bar b2" x="260" y="134" width="80" height="3" fill="url(#shine)"/></g>
+  </g>
+  <g class="tile a3">
+    <rect x="510" y="14" width="230" height="124" rx="14" fill="#0E1022" stroke="#F472B6" stroke-opacity=".35"/>
+    <text class="sans" x="530" y="70" font-size="44" font-weight="800" fill="url(#g3)">1×</text>
+    <text class="sans" x="530" y="96" font-size="13" fill="#E2E8F0">effect per idempotency key</text>
+    <text class="mono" x="530" y="116" font-size="10.5" fill="#64748B">under concurrent duplicates</text>
+    <g clip-path="url(#c3)"><rect class="bar b3" x="510" y="134" width="80" height="3" fill="url(#shine)"/></g>
+  </g>
+  <g class="tile a4">
+    <rect x="760" y="14" width="230" height="124" rx="14" fill="#0E1022" stroke="#FBBF24" stroke-opacity=".35"/>
+    <text class="sans" x="780" y="70" font-size="44" font-weight="800" fill="url(#g4)">9.12</text>
+    <text class="sans" x="780" y="96" font-size="13" fill="#E2E8F0">CGPA · B.Tech CSE</text>
+    <text class="mono" x="780" y="116" font-size="10.5" fill="#64748B">KMIT · class of 2027</text>
+    <g clip-path="url(#c4)"><rect class="bar b4" x="760" y="134" width="80" height="3" fill="url(#shine)"/></g>
+  </g>
+</svg>
