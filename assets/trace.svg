@@ -1,85 +1,131 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 310" width="1000" height="310" role="img" aria-label="TRACE recovery loop: failed payment, LLM agent, policy layer, bounded execution, reassessment loop, safe fallback; +42% revenue recovered vs rules baseline">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" width="1000" height="320" role="img" aria-label="TRACE recovery loop: failed payment, LLM agent, policy layer, bounded execution, reassessment loop, safe fallback on timeout; +42% revenue recovered vs rules baseline">
   <style>
     .sans{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif}
     .mono{font-family:'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace}
-    .box{fill:#111427;stroke:#3B2F7A;stroke-width:1.2}
+    .box{fill:url(#glass);stroke:url(#edge);stroke-width:1.3}
     .t{font-size:15px;font-weight:700;fill:#F0EEFF}
     .s{font-size:11px;fill:#94A3B8}
     .wire{stroke:#5B4B9E;stroke-width:1.6;fill:none}
-    .loop{stroke:#38BDF8;stroke-width:1.6;fill:none;stroke-dasharray:6 5;animation:flow 2.2s linear infinite}
+    .badge{fill:#0B0D1C;stroke-width:1.4}
+    .ic{fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+    .loop{stroke:#38BDF8;stroke-width:1.8;fill:none;stroke-dasharray:6 5;animation:flow 2.2s linear infinite}
     @keyframes flow{to{stroke-dashoffset:-44}}
     .brain{animation:pulse 2.4s ease-in-out infinite}
     @keyframes pulse{0%,100%{stroke-opacity:.5}50%{stroke-opacity:1}}
     .v{opacity:0;animation:cycle 6s infinite}
     .v2{animation-delay:2s}.v3{animation-delay:4s}
-    @keyframes cycle{0%{opacity:0}5%{opacity:1}30%{opacity:1}36%{opacity:0}100%{opacity:0}}
-    .rise{animation:rise 1.2s cubic-bezier(.2,.8,.2,1) both .3s}
+    @keyframes cycle{0%{opacity:0}4%{opacity:1}30%{opacity:1}33%{opacity:0}100%{opacity:0}}
+    .rise{animation:rise 1.1s cubic-bezier(.2,.8,.2,1) .3s both}
     @keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
   </style>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0A0C18"/><stop offset="1" stop-color="#0E1A33"/></linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#080A16"/><stop offset="1" stop-color="#0C1A36"/></linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#16203F"/><stop offset="1" stop-color="#0D1124"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2B6CB0"/><stop offset="1" stop-color="#3B2F7A"/></linearGradient>
     <linearGradient id="num" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38BDF8"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#FFFFFF" fill-opacity=".06"/></pattern>
     <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#7C6BD6"/></marker>
     <marker id="ahb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#38BDF8"/></marker>
     <marker id="ahp" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#F472B6"/></marker>
     <filter id="glow" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
 
-  <rect width="1000" height="310" rx="18" fill="url(#bg)"/>
-  <rect x=".5" y=".5" width="999" height="309" rx="18" fill="none" stroke="#38BDF8" stroke-opacity=".22"/>
+  <rect width="1000" height="320" rx="20" fill="url(#bg)"/>
+  <rect width="1000" height="320" rx="20" fill="url(#dots)"/>
+  <rect x=".5" y=".5" width="999" height="319" rx="20" fill="none" stroke="#38BDF8" stroke-opacity=".25"/>
 
-  <text class="mono" x="30" y="34" font-size="13" fill="#38BDF8" letter-spacing="2">TRACE · BOUNDED RECOVERY LOOP</text>
-  <text class="mono" x="970" y="34" font-size="12" fill="#64748B" text-anchor="end">python · fastapi · react · llm apis</text>
+  <!-- header -->
+  <rect x="28" y="20" width="72" height="24" rx="12" fill="#38BDF8" fill-opacity=".14" stroke="#38BDF8" stroke-opacity=".5"/>
+  <text class="mono" x="64" y="36" font-size="11.5" font-weight="700" fill="#BAE6FD" text-anchor="middle" letter-spacing="1.5">TRACE</text>
+  <text class="mono" x="112" y="36" font-size="12" fill="#94A3B8">bounded recovery loop for failed payments</text>
+  <text class="mono" x="972" y="36" font-size="11.5" fill="#64748B" text-anchor="end">python · fastapi · react · llm apis</text>
+
+  <!-- agent ripple -->
+  <rect x="250" y="84" width="180" height="64" rx="11" fill="none" stroke="#A78BFA" stroke-width="1.5">
+    <animate attributeName="x" values="250;238" dur="2.4s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="84;72" dur="2.4s" repeatCount="indefinite"/>
+    <animate attributeName="width" values="180;204" dur="2.4s" repeatCount="indefinite"/>
+    <animate attributeName="height" values="64;88" dur="2.4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".7;0" dur="2.4s" repeatCount="indefinite"/>
+  </rect>
 
   <g class="sans">
-    <rect class="box" x="30" y="80" width="180" height="64" rx="10"/>
-    <text class="t" x="120" y="107" text-anchor="middle">Failed Payment</text>
-    <text class="s" x="120" y="127" text-anchor="middle">idempotent event intake</text>
+    <rect class="box" x="30" y="84" width="180" height="64" rx="11"/>
+    <text class="t" x="120" y="111" text-anchor="middle">Failed Payment</text>
+    <text class="s" x="120" y="131" text-anchor="middle">idempotent event intake</text>
 
-    <rect class="box brain" x="250" y="80" width="180" height="64" rx="10" style="stroke:#A78BFA;stroke-width:1.8"/>
-    <text class="t" x="340" y="107" text-anchor="middle">LLM Agent</text>
-    <text class="s" x="340" y="127" text-anchor="middle">classify · pick from fixed set</text>
+    <rect class="box brain" x="250" y="84" width="180" height="64" rx="11" style="stroke:#A78BFA;stroke-width:1.8"/>
+    <text class="t" x="340" y="111" text-anchor="middle">LLM Agent</text>
+    <text class="s" x="340" y="131" text-anchor="middle">classify · pick from fixed set</text>
 
-    <rect class="box" x="470" y="80" width="180" height="64" rx="10"/>
-    <text class="t" x="560" y="107" text-anchor="middle">Policy Layer</text>
-    <circle cx="492" cy="102" r="4" fill="#4ADE80"><animate attributeName="fill" values="#4ADE80;#FBBF24;#F43F5E;#4ADE80" dur="6s" calcMode="discrete" repeatCount="indefinite"/></circle>
+    <rect class="box" x="470" y="84" width="180" height="64" rx="11"/>
+    <text class="t" x="560" y="111" text-anchor="middle">Policy Layer</text>
     <g class="mono" font-size="11.5" font-weight="700" text-anchor="middle">
-      <text class="v"    x="560" y="128" fill="#4ADE80">APPROVE</text>
-      <text class="v v2" x="560" y="128" fill="#FBBF24">FLAG</text>
-      <text class="v v3" x="560" y="128" fill="#F43F5E">BLOCK</text>
+      <text class="v"    x="560" y="132" fill="#4ADE80">APPROVE</text>
+      <text class="v v2" x="560" y="132" fill="#FBBF24">FLAG</text>
+      <text class="v v3" x="560" y="132" fill="#F43F5E">BLOCK</text>
     </g>
 
-    <rect class="box" x="690" y="80" width="180" height="64" rx="10"/>
-    <text class="t" x="780" y="107" text-anchor="middle">Execute</text>
-    <text class="s" x="780" y="127" text-anchor="middle">bounded action set</text>
+    <rect class="box" x="690" y="84" width="180" height="64" rx="11"/>
+    <text class="t" x="780" y="111" text-anchor="middle">Execute</text>
+    <text class="s" x="780" y="131" text-anchor="middle">bounded action set</text>
 
-    <rect x="30" y="226" width="180" height="56" rx="10" fill="#1A0F24" stroke="#F472B6" stroke-dasharray="4 4"/>
-    <text class="t" x="120" y="250" text-anchor="middle" style="fill:#F9A8D4">Safe / Flagged</text>
-    <text class="s" x="120" y="268" text-anchor="middle">fallback on LLM timeout</text>
+    <rect x="30" y="232" width="180" height="58" rx="11" fill="#1C0E26" stroke="#F472B6" stroke-dasharray="4 4"/>
+    <text class="t" x="120" y="257" text-anchor="middle" style="fill:#F9A8D4">Safe / Flagged</text>
+    <text class="s" x="120" y="275" text-anchor="middle">fallback on LLM timeout</text>
   </g>
 
-  <path class="wire" d="M210 112H248" marker-end="url(#ah)"/>
-  <path class="wire" d="M430 112H468" marker-end="url(#ah)"/>
-  <path class="wire" d="M650 112H688" marker-end="url(#ah)"/>
-  <path class="loop" d="M780 144 C780 222, 340 222, 340 146" marker-end="url(#ahb)"/>
-  <text class="mono" x="560" y="232" font-size="11.5" fill="#38BDF8" text-anchor="middle">↺ reassess outcome · adapt · stay bounded</text>
-  <path d="M290 144 L190 224" stroke="#F472B6" stroke-width="1.4" stroke-dasharray="4 4" fill="none" marker-end="url(#ahp)"/>
-  <text class="mono" x="262" y="196" font-size="10.5" fill="#F472B6">timeout</text>
+  <!-- icon badges -->
+  <g>
+    <circle class="badge" cx="46" cy="84" r="12" stroke="#F472B6"/>
+    <path class="ic" stroke="#F472B6" d="M39 80H53V89H39Z M39 83.5H53"/>
 
+    <circle class="badge" cx="266" cy="84" r="12" stroke="#A78BFA"/>
+    <path fill="#A78BFA" d="M266 77.5L267.6 82.4L272.5 84L267.6 85.6L266 90.5L264.4 85.6L259.5 84L264.4 82.4Z"/>
+
+    <circle class="badge" cx="486" cy="84" r="12" stroke="#4ADE80">
+      <animate attributeName="stroke" values="#4ADE80;#FBBF24;#F43F5E;#4ADE80" dur="6s" calcMode="discrete" repeatCount="indefinite"/>
+    </circle>
+    <path class="ic" stroke="#E2E8F0" d="M486 78L491 80V84C491 87 489 89 486 90C483 89 481 87 481 84V80Z"/>
+
+    <circle class="badge" cx="706" cy="84" r="12" stroke="#38BDF8"/>
+    <path fill="#38BDF8" d="M702.5 78.5L711 84L702.5 89.5Z"/>
+
+    <circle class="badge" cx="46" cy="232" r="12" stroke="#F472B6"/>
+    <path class="ic" stroke="#F472B6" d="M46 226V233 M46 237V237.5"/>
+  </g>
+
+  <!-- wires -->
+  <path class="wire" d="M210 116H248" marker-end="url(#ah)"/>
+  <path class="wire" d="M430 116H468" marker-end="url(#ah)"/>
+  <path class="wire" d="M650 116H688" marker-end="url(#ah)"/>
+  <path class="loop" d="M780 148 C780 226, 340 226, 340 150" marker-end="url(#ahb)"/>
+  <text class="mono" x="545" y="236" font-size="11.5" fill="#38BDF8" text-anchor="middle">↺ reassess outcome · adapt · stay bounded</text>
+  <path d="M292 148 L196 228" stroke="#F472B6" stroke-width="1.4" stroke-dasharray="4 4" fill="none" marker-end="url(#ahp)"/>
+  <text class="mono" x="262" y="200" font-size="10.5" fill="#F472B6">timeout</text>
+
+  <!-- packets -->
   <g filter="url(#glow)">
-    <circle r="4.5" fill="#FFFFFF">
-      <animateMotion dur="4.5s" repeatCount="indefinite" path="M120 112H780 C780 222, 340 222, 340 146"/>
-    </circle>
-    <circle r="4" fill="#38BDF8">
-      <animateMotion dur="4.5s" begin="2.25s" repeatCount="indefinite" path="M120 112H780 C780 222, 340 222, 340 146"/>
-    </circle>
+    <circle r="4.6" fill="#FFFFFF"><animateMotion dur="4.5s" repeatCount="indefinite" path="M120 116H780 C780 226, 340 226, 340 150"/></circle>
+    <circle r="3" fill="#FFFFFF" opacity=".45"><animateMotion dur="4.5s" begin=".09s" repeatCount="indefinite" path="M120 116H780 C780 226, 340 226, 340 150"/></circle>
+    <circle r="1.8" fill="#FFFFFF" opacity=".22"><animateMotion dur="4.5s" begin=".18s" repeatCount="indefinite" path="M120 116H780 C780 226, 340 226, 340 150"/></circle>
+    <circle r="4.2" fill="#38BDF8"><animateMotion dur="4.5s" begin="2.25s" repeatCount="indefinite" path="M120 116H780 C780 226, 340 226, 340 150"/></circle>
+    <circle r="2.6" fill="#38BDF8" opacity=".45"><animateMotion dur="4.5s" begin="2.34s" repeatCount="indefinite" path="M120 116H780 C780 226, 340 226, 340 150"/></circle>
   </g>
 
+  <!-- result card with growing bars -->
   <g class="rise">
-    <rect x="715" y="216" width="255" height="74" rx="12" fill="#0F1530" stroke="#38BDF8" stroke-opacity=".55"/>
-    <text class="sans" x="733" y="258" font-size="32" font-weight="800" fill="url(#num)">+42%</text>
-    <text class="sans" x="855" y="246" font-size="11.5" fill="#E2E8F0">revenue recovered</text>
-    <text class="sans" x="855" y="262" font-size="11" fill="#94A3B8">vs rules baseline</text>
-    <text class="mono" x="733" y="280" font-size="10" fill="#64748B">300 failed txns · +23% recovery rate</text>
+    <rect x="700" y="212" width="272" height="92" rx="13" fill="#0E1530" stroke="#38BDF8" stroke-opacity=".55"/>
+    <text class="sans" x="718" y="250" font-size="32" font-weight="800" fill="url(#num)">+42%</text>
+    <text class="sans" x="826" y="238" font-size="11.5" fill="#E2E8F0">revenue recovered</text>
+    <text class="sans" x="826" y="254" font-size="11" fill="#94A3B8">300 txns · same data</text>
+    <text class="mono" x="718" y="276" font-size="9.5" fill="#94A3B8">rules</text>
+    <rect x="760" y="268" width="140" height="9" rx="4.5" fill="#475569">
+      <animate attributeName="width" values="0;0;140" keyTimes="0;.3;1" dur="1.7s" fill="freeze"/>
+    </rect>
+    <text class="mono" x="718" y="293" font-size="9.5" fill="#BAE6FD">TRACE</text>
+    <rect x="760" y="285" width="199" height="9" rx="4.5" fill="url(#num)">
+      <animate attributeName="width" values="0;0;199" keyTimes="0;.3;1" dur="2.2s" fill="freeze"/>
+    </rect>
   </g>
 </svg>
