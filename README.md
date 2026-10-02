@@ -1,137 +1,178 @@
+<!-- ═══════════════════════════════  HERO  ═══════════════════════════════ -->
 <div align="center">
 
-<!-- Animated Header Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Venkata%20Vahini%20Chilukamarri&fontSize=38&fontColor=ffffff&fontAlignY=38&desc=AI%2FML%20Engineer%20%7C%20Full-Stack%20Developer%20%7C%20CS%20@%20KMIT&descAlignY=58&descSize=16&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,35:1E1B4B,70:4C1D95,100:A78BFA&height=230&section=header&text=Vahini%20Chilukamarri&fontSize=52&fontColor=F0EEFF&fontAlignY=36&desc=I%20build%20AI%20systems%20that%20reason%2C%20evaluate%20%26%20ship.&descSize=18&descAlignY=58&descColor=C4B5FD&animation=twinkling" />
 
-<!-- Typing Animation -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=700&lines=Building+AI+systems+that+actually+work.;LLM+Evaluation+%7C+Vision+Transformers+%7C+Multi-Agent+AI;3rd+Year+CS+%40+KMIT+%7C+CGPA%3A+9.12;Turning+ideas+into+intelligent+products." alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3200&pause=900&color=38BDF8&center=true&vCenter=true&width=720&lines=%3E+booting+vahini.ai+...;%3E+loading+LLM+evaluation+pipelines+%E2%9C%93;%3E+spawning+multi-agent+systems+%E2%9C%93;%3E+training+Vision+Transformers+%E2%9C%93;%3E+status%3A+ready+to+build+something+intelligent_" alt="Typing SVG" /></a>
 
 <br/>
 
-<!-- Badges -->
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-vahini-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/venkata-vahini-chilukamarri-2b5064314/)
-[![GitHub](https://img.shields.io/badge/GitHub-vahinichilukamarri-%23181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vahinichilukamarri)
-[![Portfolio](https://img.shields.io/badge/Portfolio-vahini--dev-%23000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vahini-dev.vercel.app/)
-[![Email](https://img.shields.io/badge/Email-vahinivenkatac@gmail.com-%23EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vahinivenkatac@gmail.com)
-[![Location](https://img.shields.io/badge/📍-Hyderabad,_India-green?style=for-the-badge)](https://github.com/vahinichilukamarri)
+<a href="https://vahini-dev.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-vahini--dev-A78BFA?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0D1117" /></a>
+<a href="https://www.linkedin.com/in/venkata-vahini-chilukamarri-2b5064314/"><img src="https://img.shields.io/badge/LinkedIn-Connect-38BDF8?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" /></a>
+<a href="mailto:vahinivenkatac@gmail.com"><img src="https://img.shields.io/badge/Email-Say_hi-F472B6?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" /></a>
+<img src="https://komarev.com/ghpvc/?username=vahinichilukamarri&label=Profile%20views&color=A78BFA&style=for-the-badge&labelColor=0D1117" />
 
 </div>
 
----
+<br/>
 
-## 🧠 About Me
+<!-- ═══════════════════════════════  WHOAMI  ═══════════════════════════════ -->
+<table>
+<tr>
+<td width="58%" valign="top">
 
-```python
-class VahiniChilukamarri:
-    def __init__(self):
-        self.name       = "Venkata Vahini Chilukamarri"
-        self.role       = "AI/ML Engineer & Full-Stack Developer"
-        self.university = "Keshav Memorial Institute of Technology (KMIT)"
-        self.cgpa       = 9.12
-        self.year       = "4th Year B.Tech CSE"
-        self.location   = "Hyderabad, India"
-        self.portfolio = "https://vahini-dev.vercel.app/"
-    def current_focus(self):
-        return [
-            "⚙️  LLM Evaluation & RAG pipelines (EvalEngine)",
-            "🤖 Building multi-agent LLM systems",
-            "👁️  Computer Vision with Vision Transformers",
-            "🌐 Full-stack products with MERN + FastAPI"
-        ]
-
-    def seeking(self):
-        return "Software Engineering or AI/ML Internship @ high-impact org"
+```bash
+vahini@kmit:~$ neofetch
+```
+```yaml
+          ▄▄▄▄▄▄▄          vahini@github
+        ▄█▀     ▀█▄        ─────────────────────────────────
+       █▀  ◉   ◉  ▀█       Name     : Venkata Vahini Chilukamarri
+       █     ▽     █       Role     : AI/ML Engineer · Full-Stack Dev
+       ▀█▄  ═══  ▄█▀       Uni      : KMIT, Hyderabad 🇮🇳
+         ▀▀█████▀▀         Degree   : B.Tech CSE · Year 4
+        ▄█▀█▀█▀█▀█▄        CGPA     : 9.12 / 10
+       ▀▀ ▀▀ ▀▀ ▀▀ ▀▀      Kernel   : Python · TypeScript · Java
+                           Shell    : FastAPI · React · Node
+                           Uptime   : always shipping 🚀
+                           Seeking  : SWE / AI-ML roles
 ```
 
----
+</td>
+<td width="42%" valign="top">
 
-## 🚀 Featured Projects
+### ⚡ Right now
+
+- 🧪 Making LLMs **measurable** — scoring, ranking & refining outputs in **EvalEngine**
+- 🤖 Wiring **multi-agent** systems that divide, debate and decide
+- 👁️ Teaching **Vision Transformers** to see cracks in roads
+- 🔍 Going deep on **RAG**, **agentic AI** & **multimodal** models
+
+### 💬 Ask me about
+LLM-as-a-judge · NL→SQL · ViTs · shipping MERN + FastAPI apps fast
+
+### 🎯 Fun fact
+97% in Intermediate (top 3% statewide) — I still debug like it's an exam 😄
+
+</td>
+</tr>
+</table>
+
+<!-- ═══════════════════════════════  PROJECTS  ═══════════════════════════════ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1E1B4B,100:4C1D95&height=46&section=header&text=%F0%9F%9A%80%20%20Things%20I've%20Built&fontSize=22&fontColor=F0EEFF&fontAlignY=55" width="100%"/>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### ⚙️ EvalEngine
+**LLM Evaluation & Improvement System**
+
+Generates, scores and ranks AI responses with multi-metric analysis, then uses **LLM-as-a-judge** reasoning to feed a self-refinement loop.
+
+`Python` `Streamlit` `LLM APIs` `RAG`
+
+🔁 Feedback refinement loop · 🔍 RAG *(in progress)*
+
+<a href="https://github.com/vahinichilukamarri/llm-evaluation-engine"><img src="https://img.shields.io/badge/View_Repo-→-A78BFA?style=flat-square&logo=github&labelColor=0D1117"/></a>
+
+</td>
+<td width="50%" valign="top">
+
+### 🧩 AskBI
+**AI Business Intelligence Dashboard**
+
+Non-technical users ask questions of CSV data in plain English — an end-to-end **NL→SQL** pipeline turns them into live visual insights.
+
+`React` `FastAPI` `Pandas` `LLM APIs` `SQL`
+
+💬 Natural language → SQL · 📊 Real-time viz
+
+<a href="https://github.com/vahinichilukamarri/AskBI"><img src="https://img.shields.io/badge/View_Repo-→-A78BFA?style=flat-square&logo=github&labelColor=0D1117"/></a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🛣️ SafeStreet
+**Road Damage Detection & Alert System**
+
+A **Vision Transformer** classifies 4 road-damage types at **90%+ accuracy**; a mobile app geotags reports and auto-alerts government authorities.
+
+`ViT` `React Native` `Node.js` `REST API`
+
+🎯 90%+ accuracy · ⬇️ ~40% less manual work
+
+<a href="https://github.com/vahinichilukamarri"><img src="https://img.shields.io/badge/View_Repo-→-38BDF8?style=flat-square&logo=github&labelColor=0D1117"/></a>
+
+</td>
+<td width="50%" valign="top">
+
+### 🧠 MoodAngels
+**AI Psychiatric Diagnostic Support**
+
+**Multi-agent** system that analyses symptoms and behavioural indicators; Pearson-correlation analysis lifted accuracy **~25%** over a rule-based baseline.
+
+`Multi-Agent AI` `NLP` `Python` `MERN`
+
+🤝 ~25% accuracy gain · 📋 500+ synthetic records
+
+<a href="https://github.com/AnishaPaturi/Mood-Angles"><img src="https://img.shields.io/badge/View_Repo-→-38BDF8?style=flat-square&logo=github&labelColor=0D1117"/></a>
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+### 🚌 NextRide — Smart School Bus Tracking & Route Optimization
+Real-time GPS tracking with **dynamic routing** that recalculates around daily student attendance — **~20% shorter routes** and **~30% fewer redundant stops**. &nbsp; `Node.js` `Leaflet.js` `Routing Algorithms` &nbsp;
+<a href="https://github.com/vahinichilukamarri"><img src="https://img.shields.io/badge/View_Repo-→-F472B6?style=flat-square&logo=github&labelColor=0D1117"/></a>
+
+</td>
+</tr>
+</table>
+
+<!-- ═══════════════════════════════  STACK  ═══════════════════════════════ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1E1B4B,100:4C1D95&height=46&section=header&text=%F0%9F%9B%A0%EF%B8%8F%20%20My%20Toolkit&fontSize=22&fontColor=F0EEFF&fontAlignY=55" width="100%"/>
 
 <div align="center">
 
-| ⚙️ **EvalEngine** | 🧩 **AskBI** |
-|---|---|
-| **LLM Evaluation & Improvement System** | **AI Business Intelligence Dashboard** |
-| Modular pipeline that generates, scores & ranks AI responses using multi-metric analysis. LLM-as-a-judge ranking with reasoning + feedback-driven refinement loop. | End-to-end NL-to-SQL pipeline — non-technical users query CSV data in plain English, get real-time visual insights via React + FastAPI. |
-| `Python` `Streamlit` `LLM APIs` `RAG` | `React` `FastAPI` `Pandas` `LLM APIs` `SQL` |
-| 🔁 Feedback refinement loop &nbsp;·&nbsp; 🔍 RAG *(in progress)* | 💬 Natural Language → SQL &nbsp;·&nbsp; 📊 Real-time viz |
-| [![](https://img.shields.io/badge/GitHub-EvalEngine-181717?style=flat-square&logo=github)](https://github.com/vahinichilukamarri/llm-evaluation-engine) | [![](https://img.shields.io/badge/GitHub-AskBI-181717?style=flat-square&logo=github)](https://github.com/vahinichilukamarri/AskBI) |
-
-| 🧠 **MoodAngels** | 🛣️ **SafeStreet** |
-|---|---|
-| **AI Psychiatric Diagnostic Support** | **Road Damage Detection & Alert System** |
-| Multi-agent AI system analyzing patient symptoms & behavioral indicators. Pearson correlation analysis improved diagnostic accuracy ~25% over rule-based baseline. | Vision Transformer (ViT) achieving **90%+ accuracy** across 4 road damage types. Deployed via mobile app with geotagged mapping + auto government reporting. |
-| `Multi-Agent AI` `NLP` `Python` `MERN Stack` | `Vision Transformer` `React Native` `Node.js` `REST API` |
-| 🤝 ~25% accuracy gain &nbsp;·&nbsp; 📋 500+ synthetic records | 🎯 90%+ ViT accuracy &nbsp;·&nbsp; ⬇️ ~40% less manual work |
-| [![](https://img.shields.io/badge/GitHub-MoodAngels-181717?style=flat-square&logo=github)](https://github.com/AnishaPaturi/Mood-Angles) | [![](https://img.shields.io/badge/GitHub-SafeStreet-181717?style=flat-square&logo=github)](https://github.com/vahinichilukamarri) |
-
-| 🚌 **NextRide** | &nbsp; |
-|---|---|
-| **Smart School Bus Tracking & Route Optimization** | &nbsp; |
-| Real-time GPS tracking with dynamic routing that recalculates based on student attendance — cutting route distance by ~20% and redundant stops by ~30%. | &nbsp; |
-| `Node.js` `Leaflet.js` `Dynamic Routing Algorithms` | &nbsp; |
-| 📡 Real-time GPS &nbsp;·&nbsp; 🔁 ~20% shorter routes &nbsp;·&nbsp; 🛑 ~30% fewer stops | &nbsp; |
-| [![](https://img.shields.io/badge/GitHub-NextRide-181717?style=flat-square&logo=github)](https://github.com/vahinichilukamarri) | &nbsp; |
+<table>
+<tr><td align="center" width="140"><b>💻 Languages</b></td><td>
+<img src="https://skillicons.dev/icons?i=python,java,cpp,js,ts,mysql&theme=dark" />
+</td></tr>
+<tr><td align="center"><b>🧠 AI / ML</b></td><td>
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow&theme=dark" />
+<img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" height="40"/>
+<img src="https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logo=groq&logoColor=white" height="40"/>
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" height="40"/>
+</td></tr>
+<tr><td align="center"><b>🌐 Full-Stack</b></td><td>
+<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,fastapi&theme=dark" />
+</td></tr>
+<tr><td align="center"><b>🗄️ Data & Ops</b></td><td>
+<img src="https://skillicons.dev/icons?i=mongodb,mysql,docker,git,github,vercel,postman&theme=dark" />
+</td></tr>
+</table>
 
 </div>
 
----
-
-## 🛠️ Tech Stack
+<!-- ═══════════════════════════════  STATS  ═══════════════════════════════ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1E1B4B,100:4C1D95&height=46&section=header&text=%F0%9F%93%8A%20%20By%20the%20Numbers&fontSize=22&fontColor=F0EEFF&fontAlignY=55" width="100%"/>
 
 <div align="center">
 
-**Languages**
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=vahinichilukamarri&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=38BDF8&text_color=F0EEFF&ring_color=A78BFA&rank_icon=github"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vahinichilukamarri&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=F0EEFF"/>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=vahinichilukamarri&bg_color=0D1117&color=C4B5FD&line=A78BFA&point=38BDF8&area=true&area_color=4C1D95&hide_border=true&custom_title=Commit%20heartbeat" />
 
-**AI / ML & Deep Learning**
-
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
-![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logo=groq&logoColor=white)
-
-**Full-Stack & Frameworks**
-
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-
-**Databases & DevOps**
-
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=vahinichilukamarri&hide_border=true&background=0D1117&ring=A78BFA&fire=38BDF8&currStreakLabel=A78BFA&sideLabels=F0EEFF&dates=94A3B8&stroke=1E1B4B" alt="GitHub Streak"/>
 
 </div>
 
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=vahinichilukamarri&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=38BDF8&text_color=F0EEFF"/>
-&nbsp;
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vahinichilukamarri&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=F0EEFF"/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=vahinichilukamarri&theme=tokyonight&hide_border=true&background=0D1117&ring=A78BFA&fire=38BDF8&currStreakLabel=A78BFA" alt="GitHub Streak"/>
-
-</div>
-
----
-
+<!-- ═══════════════════════════════  SNAKE (kept)  ═══════════════════════════════ -->
 ## 🐍 Watch My Contributions Get Eaten!
 
 <div align="center">
@@ -144,42 +185,44 @@ class VahiniChilukamarri:
 
 </div>
 
----
-
-## 🏆 Achievements & Certifications
-
-| 🏅 Achievement | 📋 Details |
-|---|---|
-| 🎓 Academic Excellence | CGPA **9.12** @ KMIT · Top student |
-| 📜 SQL (Intermediate) | HackerRank Certified |
-| 🤖 Generative AI | GreatLearning Certified |
-| 🔬 GenAI Workshop | Skilligence × **IIT Hyderabad** |
-| 🛠️ DBMS Workshop Facilitator | Co-taught peer workshop @ KMIT |
-| 🚀 PRAKALP Hackathon | Bluetooth Talking Vehicle prototype |
-| 📐 Intermediate (MPC) | **97%** — Top 3% statewide cohort |
-| 🏫 SSC | Perfect **10/10 GPA** |
-
----
-
-## 🌍 Beyond the Code
-
-- 🫂 **NSS Volunteer** — 40+ hours of community service, 5+ social campaigns
-- 🎨 **Graphic Design Intern** — Created 20+ digital/print assets, reached 2,000+ students at KMIT events
-- 💡 Currently exploring: **Agentic AI**, **RAG pipelines**, and **multimodal systems**
-
----
+<!-- ═══════════════════════════════  ACHIEVEMENTS  ═══════════════════════════════ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1E1B4B,100:4C1D95&height=46&section=header&text=%F0%9F%8F%86%20%20Trophy%20Shelf&fontSize=22&fontColor=F0EEFF&fontAlignY=55" width="100%"/>
 
 <div align="center">
 
-### 💬 Let's Build Something Intelligent Together
+| | | |
+|:---:|:---:|:---:|
+| 🎓<br/>**9.12 CGPA**<br/><sub>Top student @ KMIT</sub> | 📐<br/>**97% Intermediate**<br/><sub>Top 3% statewide (MPC)</sub> | 🏫<br/>**10/10 SSC**<br/><sub>Perfect GPA</sub> |
+| 🔬<br/>**GenAI Workshop**<br/><sub>Skilligence × IIT Hyderabad</sub> | 🤖<br/>**Generative AI**<br/><sub>GreatLearning Certified</sub> | 📜<br/>**SQL (Intermediate)**<br/><sub>HackerRank Certified</sub> |
+| 🛠️<br/>**DBMS Workshop**<br/><sub>Co-taught peers @ KMIT</sub> | 🚀<br/>**PRAKALP Hackathon**<br/><sub>Bluetooth Talking Vehicle</sub> | 🫂<br/>**NSS Volunteer**<br/><sub>40+ hrs · 5+ campaigns</sub> |
 
-*Open to AI/ML and SWE internship opportunities — let's connect!*
+</div>
 
-[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/venkata-vahini-chilukamarri-2b5064314/)
-[![Portfolio](https://img.shields.io/badge/View_Portfolio-%23000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vahini-dev.vercel.app/)
-[![Email](https://img.shields.io/badge/Send_an_Email-%23EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vahinivenkatac@gmail.com)
-[![GitHub](https://img.shields.io/badge/Follow_on_GitHub-%23181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vahinichilukamarri)
+<details>
+<summary><b>🎨 Beyond the code — click to expand</b></summary>
+<br/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer" />
+- 🎨 **Graphic Design Intern** — 20+ digital & print assets reaching 2,000+ students at KMIT events
+- 🫂 **NSS Volunteer** — 40+ hours of community service across 5+ social campaigns
+- 💡 Currently rabbit-holing into **agentic AI**, **RAG** and **multimodal** systems
+
+</details>
+
+<!-- ═══════════════════════════════  FOOTER  ═══════════════════════════════ -->
+<br/>
+
+<div align="center">
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&border=false" />
+
+### 💌 Let's build something intelligent together
+
+Open to **SWE** and **AI/ML** opportunities — the inbox is always open.
+
+<a href="https://vahini-dev.vercel.app/"><img src="https://img.shields.io/badge/View_Portfolio-A78BFA?style=for-the-badge&logo=vercel&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/venkata-vahini-chilukamarri-2b5064314/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="mailto:vahinivenkatac@gmail.com"><img src="https://img.shields.io/badge/Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:A78BFA,30:4C1D95,65:1E1B4B,100:0D1117&height=130&section=footer&animation=twinkling" />
 
 </div>
