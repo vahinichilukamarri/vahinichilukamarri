@@ -357,12 +357,12 @@ A **Vision Transformer** classifies 4 road-damage types at **90%+ accuracy**; a 
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=vahinichilukamarri&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=38BDF8&text_color=F0EEFF&ring_color=A78BFA&rank_icon=github" alt="GitHub stats"/>
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vahinichilukamarri&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=F0EEFF" alt="Top languages"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=vahinichilukamarri&custom_title=GitHub%20Stats&show_icons=true&include_all_commits=true&count_private=true&hide=stars,issues&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=38BDF8&text_color=F0EEFF&ring_color=A78BFA&rank_icon=github" alt="GitHub stats"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vahinichilukamarri&layout=compact&langs_count=6&hide=html,css,powershell,dockerfile&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=F0EEFF" alt="Top languages"/>
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=vahinichilukamarri&bg_color=0D1117&color=C4B5FD&line=A78BFA&point=38BDF8&area=true&area_color=4C1D95&hide_border=true&custom_title=Commit%20heartbeat" alt="Contribution activity graph"/>
+<br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=vahinichilukamarri&hide_border=true&background=0D1117&ring=A78BFA&fire=38BDF8&currStreakLabel=A78BFA&sideLabels=F0EEFF&dates=94A3B8&stroke=1E1B4B" alt="GitHub Streak"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=vahinichilukamarri&hide_border=true&background=0D1117&ring=A78BFA&fire=38BDF8&stroke=4C1D95&currStreakNum=F0EEFF&sideNums=F0EEFF&currStreakLabel=A78BFA&sideLabels=C4B5FD&dates=94A3B8" alt="GitHub Streak"/>
 
 </div>
 
