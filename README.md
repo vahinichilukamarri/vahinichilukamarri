@@ -1,14 +1,19 @@
 <!-- ════════════════════════════════════  HERO  ════════════════════════════════════ -->
 <div align="center">
 
-<img src="./assets/hero.svg" width="100%" alt="Venkata Vahini Chilukamarri — Backend · Distributed Systems · AI Engineering"/>
+<img src="./assets/hero.svg" width="100%" alt="Venkata Vahini Chilukamarri — Software & AI Engineer"/>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2800&pause=800&color=A78BFA&center=true&vCenter=true&width=760&lines=%3E+ledger.post(txn)++%E2%86%92+balanced+per+currency+%E2%9C%93;%3E+retry(txn)++%E2%86%92+replayed%2C+not+re-applied+%E2%9C%93;%3E+agent.recover(payment)++%E2%86%92+%2B42%25+revenue+%E2%9C%93;%3E+tarjan(trace_spans)++%E2%86%92+cycles+collapsed+%E2%9C%93;%3E+vit.detect(road)++%E2%86%92+90%25%2B+accuracy+%E2%9C%93;%3E+vahini.status()++%E2%86%92+open+to+SWE+%2B+AI+roles_" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2800&pause=800&color=A78BFA&center=true&vCenter=true&width=780&lines=%3E+morph.integrate(api_a%2C+api_b)++%E2%86%92+tests+shipped+with+the+code+%E2%9C%93;%3E+trace.recover(payment)++%E2%86%92+%2B42%25+revenue+vs+rules+%E2%9C%93;%3E+ledger.post(txn)++%E2%86%92+balanced+per+currency+%E2%9C%93;%3E+retry(txn)++%E2%86%92+replayed%2C+not+re-applied+%E2%9C%93;%3E+agentshield.patch(iac)++%E2%86%92+paper+accepted+%E2%9C%93;%3E+vahini.status()++%E2%86%92+open+to+SWE+%2B+AI+internships_" alt="Typing SVG"/></a>
 
 <a href="https://vahini-dev.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-vahini--dev-A78BFA?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0D1117" alt="Portfolio"/></a>
 <a href="https://www.linkedin.com/in/venkata-vahini-chilukamarri-2b5064314/"><img src="https://img.shields.io/badge/LinkedIn-Connect-38BDF8?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" alt="LinkedIn"/></a>
 <a href="mailto:vahinivenkatac@gmail.com"><img src="https://img.shields.io/badge/Email-Say_hi-F472B6?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" alt="Email"/></a>
 <img src="https://komarev.com/ghpvc/?username=vahinichilukamarri&label=Profile%20views&color=A78BFA&style=for-the-badge&labelColor=0D1117" alt="Profile views"/>
+
+<br/><br/>
+
+### Verified, not trusted.
+<sub>Every agent I build proposes — deterministic code decides.</sub>
 
 </div>
 
@@ -23,20 +28,22 @@
 @Engineer
 public final class Vahini {
 
-    String   name    = "Venkata Vahini Chilukamarri";
-    String   school  = "KMIT · B.Tech CSE '27 · CGPA 9.12";
-    String   recent  = "Salesforce Mentorship '26 · SWE Mentee";
+    String   name     = "Venkata Vahini Chilukamarri";
+    String   school   = "KMIT · B.Tech CSE '27 · CGPA 9.12";
+    String   recent   = "Salesforce Mentorship '26 · SWE Mentee";
+    String   research = "AgentShield AI · accepted, Jan 2027";
 
-    String[] builds  = { "payment ledgers", "AI agents",
-                         "observability tooling", "vision models" };
-    String[] obsess  = { "idempotency", "failure modes",
-                         "tests that break things" };
+    String[] builds   = { "LLM agents", "payment ledgers",
+                          "eval pipelines", "observability tooling" };
+    String[] believes = { "agents propose, code decides",
+                          "tests that break things",
+                          "negative results stay in" };
 
     Result ship(Idea idea) {
         return idea.design()
                    .test()
                    .breakOnPurpose()   // jqwik + fault injection
-                   .fix()
+                   .gate()             // policy before execution
                    .deploy();
     }
 }
@@ -47,28 +54,35 @@ public final class Vahini {
 
 ### ⚡ What I do
 
-I build **backend and AI systems that stay correct when things go wrong** — retries, duplicates, crashes, flaky LLMs.
+Final-year CSE at KMIT building **AI systems that are verified, not trusted** — agents that ship their own test suites, payment agents fenced by deterministic policy, and ledgers proven with property-based tests.
 
-Java + Spring Boot for the parts that must never lose money. Python + FastAPI for the parts that think.
+Most of my work sits where **LLM agents, testing and distributed systems** meet.
+
+### 🛠️ Now building
+**MORPH v0.6** — MCP policy layer
 
 ### 🎯 Open to
-**SWE · Backend · AI Engineering** roles where reliability actually matters.
-
-### 💬 Ask me about
-Transactional outbox · idempotency keys · bounded LLM agents · Tarjan's SCC on trace spans · Vision Transformers
+**Software Engineering · AI/ML** internships
 
 </td>
 </tr>
 </table>
 
-<img src="./assets/impact.svg" width="100%" alt="Impact: +42% revenue recovered, +23% recovery rate, exactly one effect per idempotency key, 9.12 CGPA"/>
+<!-- ════════════════════════════════════  NUMBERS  ════════════════════════════════════ -->
+<div align="center">
+
+| 🎓 **9.12** | 📈 **+42%** | 📄 **1** | 🧪 **38 / 15** |
+|:---:|:---:|:---:|:---:|
+| <sub>CGPA · B.Tech CSE, KMIT</sub> | <sub>more revenue recovered than a rules baseline (TRACE, 300 cases)</sub> | <sub>accepted research paper · AgentShield AI, Jan 2027</sub> | <sub>property tests / fault injections guarding LedgerGuard</sub> |
+
+</div>
 
 <!-- ════════════════════════════════════  EXPERIENCE  ════════════════════════════════════ -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1E1B4B,100:4C1D95&height=46&section=header&text=%F0%9F%92%BC%20%20Experience&fontSize=22&fontColor=F0EEFF&fontAlignY=55" width="100%" alt="Experience"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1E1B4B,100:4C1D95&height=46&section=header&text=%F0%9F%92%BC%20%20Experience%20%26%20Research&fontSize=22&fontColor=F0EEFF&fontAlignY=55" width="100%" alt="Experience & Research"/>
 
 <table>
 <tr>
-<td width="130" align="center" valign="top">
+<td width="140" align="center" valign="top">
 <img src="https://img.shields.io/badge/Salesforce-00A1E0?style=for-the-badge&logo=salesforce&logoColor=white" alt="Salesforce"/><br/>
 <sub><b>Jun – Aug 2026</b><br/>Remote</sub>
 </td>
@@ -77,11 +91,31 @@ Transactional outbox · idempotency keys · bounded LLM agents · Tarjan's SCC o
 #### Software Engineering Mentee — Salesforce Mentorship Program
 **Microservice Health & API Performance Orchestrator**
 
-- 🕸️ **Dependency graph engine** that auto-discovers service dependencies from **OpenTelemetry** trace spans, then runs **Tarjan's SCC** to detect and collapse circular dependencies
-- 🎯 **Root-cause analysis** that ranks likely culprits via topological root-finding + time-correlation across services, with cycle-safe BFS/DFS to estimate **blast radius**
-- 🔔 **Slack / Discord alerting** that suppresses duplicate and flapping alerts, retries with SQLite-backed fallback logging, and a live **Cytoscape.js** dependency dashboard
+- 🕸️ **Dependency-graph engine** that auto-discovers service dependencies from **OpenTelemetry** trace spans, using **Tarjan's SCC** to detect and collapse circular dependencies before analysis
+- 🎯 **Root-cause analysis** combining topological root-finding with time-correlation ranking, plus cycle-safe BFS/DFS **blast-radius** computation to predict cascading failures
+- 🔔 **Deduplicated Slack/Discord alerting** with flap suppression and retry/fallback logging, backed by a SQLite incident store and a live **Cytoscape.js** dependency dashboard
 
-`OpenTelemetry` `Graph Algorithms` `SQLite` `Cytoscape.js` `Slack/Discord APIs`
+`FastAPI` `OpenTelemetry` `SQLite` `Cytoscape.js` `Slack API` `Graph Algorithms`
+
+</td>
+</tr>
+<tr>
+<td width="140" align="center" valign="top">
+<img src="https://img.shields.io/badge/Paper-Accepted-A78BFA?style=for-the-badge&labelColor=0D1117" alt="Accepted paper"/><br/>
+<sub><b>To appear<br/>Jan 2027</b></sub>
+</td>
+<td valign="top">
+
+#### 🛡️ AgentShield AI — Co-author
+**Multi-agent LLMs for cloud infrastructure security**
+
+- Extends LLM-based IaC vulnerability remediation from **AWS-only to Azure and GCP** across Terraform, Kubernetes and Helm
+- An **8-agent LangGraph pipeline** over Checkov, tfsec and KICS scans with RAG retrieval
+- Patches validated in a **LocalStack sandbox**; Claude / GPT-4o **ensemble voting** routes low-confidence fixes to human review
+
+`Python` `LangGraph` `RAG` `FastAPI` `Checkov` `tfsec` `KICS` `LocalStack`
+
+<sub>📎 Preprint link coming soon</sub>
 
 </td>
 </tr>
@@ -90,58 +124,95 @@ Transactional outbox · idempotency keys · bounded LLM agents · Tarjan's SCC o
 <!-- ════════════════════════════════════  FLAGSHIP PROJECTS  ════════════════════════════════════ -->
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1E1B4B,100:4C1D95&height=46&section=header&text=%F0%9F%9A%80%20%20Flagship%20Builds&fontSize=22&fontColor=F0EEFF&fontAlignY=55" width="100%" alt="Flagship Builds"/>
 
+### 🧬 MORPH — Autonomous AI Integration Engineer &nbsp;<img src="https://img.shields.io/badge/NEW-A78BFA?style=flat-square" alt="New"/>
+> *Agent-written integration code — verified, not trusted.*
+
+Given two independently built systems' API contracts, MORPH discovers their schemas, proposes how the data maps, writes the integration — and pairs **every generated module with a generated test suite**, run inside a locked-down sandbox.
+
+```mermaid
+flowchart LR
+    A[Discover<br/>OpenAPI → system model] --> B[Map<br/>model proposes, code validates]
+    B --> C[Review<br/>human gate]
+    C --> D[Generate<br/>code + its own tests]
+    D --> E[Gate<br/>G1–G5 · AST · ruff · mypy strict]
+    E --> F[Sandbox<br/>locked-down Docker]
+    F -->|fail| G[Repair<br/>bounded LangGraph loop]
+    G -->|≤ 3 attempts| E
+    G -->|exhausted| C
+    F -->|pass| H[Expose<br/>capabilities as MCP tools]
+```
+
+<table>
+<tr>
+<td width="25%" align="center"><b>≤ 3</b><br/><sub>bounded repairs, then a human</sub></td>
+<td width="25%" align="center"><b>5</b><br/><sub>guards that never loosen</sub></td>
+<td width="25%" align="center"><b>413</b><br/><sub>hidden oracle checks</sub></td>
+<td width="25%" align="center"><b>60 s</b><br/><sub>sandbox time limit</sub></td>
+</tr>
+</table>
+
+**Honest by design** — correctness is judged by a hand-written oracle the pipeline never sees. A run that passes every gate MORPH controls can still fail the oracle, and that gets reported. Conditions that never reached READY stay in every denominator, and a source-level test forbids the repair loop from importing oracle code.
+
+`Python` `FastAPI` `LangGraph` `MCP` `PostgreSQL` `pgvector` `Docker` `Groq` `Ollama`
+
+<!-- TODO: replace the link below with the MORPH repo URL -->
+<a href="https://github.com/vahinichilukamarri"><img src="https://img.shields.io/badge/Explore_MORPH-%E2%86%92-A78BFA?style=for-the-badge&logo=github&labelColor=0D1117" alt="Explore MORPH"/></a>
+
+<br/><br/>
+
+### 🧠 TRACE — Transaction Recovery Agent with Contextual Evaluation &nbsp;<img src="https://img.shields.io/badge/LIVE-22C55E?style=flat-square" alt="Live"/>
+> *A failed payment isn't a lost customer — and an agent shouldn't get the last word.*
+
+<img src="./assets/trace.svg" width="100%" alt="TRACE recovery loop diagram"/>
+
+TRACE decides whether a failed payment is worth recovering, picks the single best next action, executes it, adapts to the outcome — and knows when to stop. Built for the **Razorpay AI Buildathon**.
+
+- 📈 Benchmarked against a fixed-rules baseline on **300 synthetic failed transactions**: **+42% revenue recovered** at a **23% higher relative recovery rate** on identical data
+- ⚙️ **Dual-engine design** — a free deterministic heuristic scores every case; the LLM (Groq) is called only when one of four uncertainty signals fires
+- 🛡️ A **9-rule, 100% deterministic policy layer** approves, blocks or flags every recommendation before execution; LLM timeouts fall back to a safe, flagged state
+
+`React` `FastAPI` `SQLAlchemy` `Groq LLM` `PostgreSQL` `Vercel` `Render`
+
+<a href="https://trace-xi-nine.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-%E2%97%8F-38BDF8?style=for-the-badge&labelColor=0D1117" alt="TRACE live demo"/></a>
+<a href="https://github.com/vahinichilukamarri/TRACE"><img src="https://img.shields.io/badge/Explore_TRACE-%E2%86%92-38BDF8?style=for-the-badge&logo=github&labelColor=0D1117" alt="Explore TRACE"/></a>
+
+<br/><br/>
+
 ### 🏦 LedgerGuard — Payment Integrity Platform
 > *A ledger that refuses to be wrong — even when the network, the database and the clock all fail.*
 
 <img src="./assets/ledgerguard.svg" width="100%" alt="LedgerGuard architecture diagram"/>
+
+Built in **14 locked, tagged phases** — enforcing that debits equal credits for every transaction before it's persisted, then independently verifying, stress-testing and explaining anything that looks wrong.
 
 <table>
 <tr>
 <td width="33%" valign="top">
 
 **💰 Can't go unbalanced**<br/>
-Double-entry validation runs **per currency inside the same transaction** as the write — an unbalanced transaction can never be partially persisted.
+Double-entry invariant validated **per currency inside the same transaction** as the write — no half-committed unbalanced state is ever visible.
 
 </td>
 <td width="33%" valign="top">
 
 **🔁 Exactly one effect**<br/>
-Required idempotency keys with **byte-identical replay**, a **transactional outbox** that publishes to Kafka only after commit, and consumer-side dedup.
+Idempotency keys with **byte-identical replay** under concurrent duplicates; events published to Kafka via a **transactional outbox**.
 
 </td>
 <td width="33%" valign="top">
 
-**🔎 Explains its alarms**<br/>
-Statistical + **Isolation-Forest** anomaly detection with per-feature attribution and a **grounded LLM explanation** per flagged account, scored by a precision/recall harness.
+**💥 Broken on purpose**<br/>
+**38 property-based tests** (jqwik) plus **15 deterministic fault injections** at the JDBC, broker and clock seams.
 
 </td>
 </tr>
 </table>
 
-Verified end-to-end with **jqwik property tests** and **deterministic fault injection** across JDBC, broker and clock seams, plus a React/TypeScript ops console over the whole system.
+Statistical + Isolation-Forest anomaly detection with grounded LLM explanations, scored against labelled data, and a React/TypeScript ops console over the whole system.
 
 `Java` `Spring Boot` `PostgreSQL` `Kafka` `Flyway` `jqwik` `Testcontainers` `React` `TypeScript`
 
-<!-- TODO: replace the link below with the LedgerGuard repo URL -->
-<a href="https://github.com/vahinichilukamarri"><img src="https://img.shields.io/badge/Explore_LedgerGuard-%E2%86%92-A78BFA?style=for-the-badge&logo=github&labelColor=0D1117" alt="Explore LedgerGuard"/></a>
-
-<br/><br/>
-
-### 🧠 TRACE — Transaction Recovery Agent with Contextual Evaluation
-> *An AI agent for failed payments that's smart enough to adapt and disciplined enough to stay in bounds.*
-
-<img src="./assets/trace.svg" width="100%" alt="TRACE recovery loop diagram"/>
-
-- 🎛️ The agent picks recovery actions from a **controlled option set**, in a **bounded reassessment loop** that learns from prior outcomes without runaway execution
-- 🛡️ An **independent policy layer** approves, blocks or flags every recommendation before anything runs
-- 📈 Benchmarked against a fixed-rules baseline on **300 synthetic failed transactions**: **42% more revenue recovered** and a **23% higher relative recovery rate** on identical data
-- 🧯 Idempotency protection for repeated payment events, and automatic **fallback to a safe/flagged state** when LLM classification times out or fails
-
-`Python` `FastAPI` `React` `LLM APIs` `Agent Design`
-
-<!-- TODO: replace the two links below with the TRACE live-demo and repo URLs -->
-<a href="https://github.com/vahinichilukamarri"><img src="https://img.shields.io/badge/Live_Demo-%E2%97%8F-38BDF8?style=for-the-badge&labelColor=0D1117" alt="TRACE live demo"/></a>
-<a href="https://github.com/vahinichilukamarri"><img src="https://img.shields.io/badge/Explore_TRACE-%E2%86%92-38BDF8?style=for-the-badge&logo=github&labelColor=0D1117" alt="Explore TRACE"/></a>
+<a href="https://github.com/vahinichilukamarri/LedgerGuard"><img src="https://img.shields.io/badge/Explore_LedgerGuard-%E2%86%92-A78BFA?style=for-the-badge&logo=github&labelColor=0D1117" alt="Explore LedgerGuard"/></a>
 
 <!-- ════════════════════════════════════  MORE PROJECTS  ════════════════════════════════════ -->
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1E1B4B,100:4C1D95&height=46&section=header&text=%F0%9F%A7%AA%20%20More%20Things%20I've%20Built&fontSize=22&fontColor=F0EEFF&fontAlignY=55" width="100%" alt="More Things I've Built"/>
@@ -151,11 +222,9 @@ Verified end-to-end with **jqwik property tests** and **deterministic fault inje
 <td width="50%" valign="top">
 
 ### ⚙️ EvalEngine
-**LLM Evaluation & Improvement System**
+**LLM Evaluation & Improvement Engine**
 
-Modular **LLM-as-a-judge** pipeline that generates, scores and ranks AI responses across several metrics, then feeds the results back as **refinement signals** — shown in an interactive Streamlit dashboard.
-
-🔁 Feedback refinement loop · 🔍 RAG *(in progress)*
+Modular **LLM-as-a-judge** pipeline that generates, scores and ranks AI responses across several metrics, then feeds results back as **refinement signals** — surfaced in an interactive Streamlit dashboard.
 
 `Python` `Streamlit` `LLM APIs` `RAG`
 
@@ -165,11 +234,9 @@ Modular **LLM-as-a-judge** pipeline that generates, scores and ranks AI response
 <td width="50%" valign="top">
 
 ### 🧩 AskBI
-**AI Business Intelligence Dashboard**
+**Plain-English Business Intelligence**
 
 End-to-end **natural-language → SQL** pipeline: non-technical users query CSV data in plain English and get real-time visual insights — no SQL required.
-
-💬 Natural language → SQL · 📊 Real-time viz
 
 `React` `FastAPI` `Pandas` `LLM APIs` `SQL`
 
@@ -181,57 +248,26 @@ End-to-end **natural-language → SQL** pipeline: non-technical users query CSV 
 <td width="50%" valign="top">
 
 ### 🛣️ SafeStreet
-**Road Damage Detection & Alert System**
+**Vision-Transformer Road Damage Detection**
 
-A **Vision Transformer** classifies 4 road-damage types at **90%+ accuracy**; a mobile app geotags each report on a map and auto-alerts government authorities.
-
-🎯 90%+ ViT accuracy · ⬇️ ~40% less manual work
+A **Vision Transformer** classifies 4 road-damage types at **90%+ accuracy**; a mobile app geotags each report and auto-alerts the authorities — cutting manual work by ~40%.
 
 `Vision Transformer` `React Native` `Node.js` `REST API`
 
+<!-- TODO: replace the link below with the SafeStreet repo URL -->
 <a href="https://github.com/vahinichilukamarri"><img src="https://img.shields.io/badge/View_Repo-%E2%86%92-38BDF8?style=flat-square&logo=github&labelColor=0D1117" alt="SafeStreet repo"/></a>
 
 </td>
 <td width="50%" valign="top">
 
 ### 🧠 MoodAngels
-**AI Psychiatric Diagnostic Support**
+**AI-Based Psychiatric Diagnostic Support**
 
-**Multi-agent** AI system that analyses patient symptoms and behavioural indicators; Pearson-correlation analysis improved diagnostic accuracy **~25%** over a rule-based baseline.
-
-🤝 ~25% accuracy gain · 📋 500+ synthetic records
+**Multi-agent** system that analyses symptoms and behavioural indicators; Pearson-correlation analysis improved diagnostic accuracy **~25%** over a rule-based baseline on 500+ synthetic records.
 
 `Multi-Agent AI` `NLP` `Python` `MERN Stack`
 
 <a href="https://github.com/AnishaPaturi/Mood-Angles"><img src="https://img.shields.io/badge/View_Repo-%E2%86%92-38BDF8?style=flat-square&logo=github&labelColor=0D1117" alt="MoodAngels repo"/></a>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🚌 NextRide
-**Smart School Bus Tracking & Route Optimization**
-
-Real-time GPS tracking with **dynamic routing** that recalculates around daily student attendance — cutting route distance and redundant stops.
-
-📡 Real-time GPS · 🔁 ~20% shorter routes · 🛑 ~30% fewer stops
-
-`Node.js` `Leaflet.js` `Dynamic Routing Algorithms`
-
-<a href="https://github.com/vahinichilukamarri"><img src="https://img.shields.io/badge/View_Repo-%E2%86%92-F472B6?style=flat-square&logo=github&labelColor=0D1117" alt="NextRide repo"/></a>
-
-</td>
-<td width="50%" valign="top">
-
-### 🤖 AI Recruiter Avatar Platform
-**Centific Hackathon 2.0 — winning build**
-
-An AI recruiter avatar platform built in **2 weeks** that earned an **AI Engineer internship offer**.
-
-🏆 Hackathon win · ⏱️ Built in 2 weeks
-
-`FastAPI` `React`
 
 </td>
 </tr>
@@ -242,25 +278,32 @@ An AI recruiter avatar platform built in **2 weeks** that earned an **AI Enginee
 
 <table>
 <tr>
-<td width="33%" align="center" valign="top">
+<td width="25%" align="center" valign="top">
 
-### 🔁
-**Retries are a given**<br/>
-<sub>Idempotency keys, outboxes and dedup consumers — so the second request is never a second charge.</sub>
+### 🧭
+**Agents propose, code decides**<br/>
+<sub>Bounded action sets and deterministic policy layers that can veto the model before anything runs.</sub>
 
 </td>
-<td width="33%" align="center" valign="top">
+<td width="25%" align="center" valign="top">
+
+### 🧪
+**AI code ships with its tests**<br/>
+<sub>Generated modules come with generated test suites, gated and run in a sandbox.</sub>
+
+</td>
+<td width="25%" align="center" valign="top">
 
 ### 💥
 **Break it before prod does**<br/>
-<sub>Property-based tests and deterministic fault injection across the DB, the broker and the clock.</sub>
+<sub>Property-based tests and fault injection across the DB, the broker and the clock.</sub>
 
 </td>
-<td width="33%" align="center" valign="top">
+<td width="25%" align="center" valign="top">
 
-### 🧭
-**AI with guardrails**<br/>
-<sub>Bounded action sets, independent policy layers and safe fallbacks when the model times out.</sub>
+### 📏
+**Negative results stay in**<br/>
+<sub>Hidden oracles and honest denominators — a pipeline shouldn't grade itself.</sub>
 
 </td>
 </tr>
@@ -273,32 +316,36 @@ An AI recruiter avatar platform built in **2 weeks** that earned an **AI Enginee
 
 <table>
 <tr><td align="center" width="150"><b>💻 Languages</b></td><td>
-<img src="https://skillicons.dev/icons?i=java,py,ts,js,cpp,html,css&theme=dark" alt="Languages"/>
+<img src="https://skillicons.dev/icons?i=py,java,ts,js,cpp,html,css&theme=dark" alt="Languages"/>
 </td></tr>
-<tr><td align="center"><b>⚙️ Backend</b></td><td>
-<img src="https://skillicons.dev/icons?i=spring,fastapi,nodejs,express,kafka&theme=dark" alt="Backend"/>
+<tr><td align="center"><b>🧠 AI & LLMs</b></td><td>
+<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" height="40" alt="LangGraph"/>
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" height="40" alt="LangChain"/>
+<img src="https://img.shields.io/badge/MCP-A78BFA?style=for-the-badge&logoColor=white" height="40" alt="MCP"/>
+<img src="https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logoColor=white" height="40" alt="Groq"/>
+<img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" height="40" alt="Ollama"/>
+<img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" height="40" alt="Hugging Face"/>
+<br/>
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn&theme=dark" alt="ML frameworks"/>
+<img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" height="40" alt="Keras"/>
+<img src="https://img.shields.io/badge/RAG_·_LLM--as--Judge_·_ViT-38BDF8?style=for-the-badge&labelColor=0D1117" height="40" alt="RAG, LLM-as-Judge, ViT"/>
+</td></tr>
+<tr><td align="center"><b>⚙️ Backend & Web</b></td><td>
+<img src="https://skillicons.dev/icons?i=fastapi,spring,nodejs,express,kafka,react&theme=dark" alt="Backend and web"/>
+<img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" height="40" alt="React Native"/>
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" height="40" alt="Streamlit"/>
 </td></tr>
 <tr><td align="center"><b>🗄️ Data</b></td><td>
 <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,sqlite&theme=dark" alt="Databases"/>
+<img src="https://img.shields.io/badge/pgvector-336791?style=for-the-badge&logo=postgresql&logoColor=white" height="40" alt="pgvector"/>
 <img src="https://img.shields.io/badge/Flyway-CC0200?style=for-the-badge&logo=flyway&logoColor=white" height="40" alt="Flyway"/>
-</td></tr>
-<tr><td align="center"><b>🧠 AI / ML</b></td><td>
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn&theme=dark" alt="AI/ML"/>
-<img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" height="40" alt="Keras"/>
-<img src="https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" height="40" alt="Transformers"/>
-<img src="https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logoColor=white" height="40" alt="Groq"/>
-<img src="https://img.shields.io/badge/LLM_Agents_%26_RAG-A78BFA?style=for-the-badge&logoColor=white" height="40" alt="LLM Agents and RAG"/>
-</td></tr>
-<tr><td align="center"><b>🎨 Frontend</b></td><td>
-<img src="https://skillicons.dev/icons?i=react,nextjs&theme=dark" alt="Frontend"/>
-<img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" height="40" alt="React Native"/>
-<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" height="40" alt="Streamlit"/>
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" height="40" alt="Pandas"/>
 </td></tr>
 <tr><td align="center"><b>🧪 Testing & Ops</b></td><td>
 <img src="https://skillicons.dev/icons?i=docker,git,github,githubactions&theme=dark" alt="DevOps"/>
 <img src="https://img.shields.io/badge/JUnit-25A162?style=for-the-badge&logo=junit5&logoColor=white" height="40" alt="JUnit"/>
-<img src="https://img.shields.io/badge/Testcontainers-291A3F?style=for-the-badge&logoColor=white" height="40" alt="Testcontainers"/>
 <img src="https://img.shields.io/badge/jqwik-F472B6?style=for-the-badge&logoColor=white" height="40" alt="jqwik"/>
+<img src="https://img.shields.io/badge/Testcontainers-291A3F?style=for-the-badge&logoColor=white" height="40" alt="Testcontainers"/>
 <img src="https://img.shields.io/badge/OpenTelemetry-000000?style=for-the-badge&logo=opentelemetry&logoColor=white" height="40" alt="OpenTelemetry"/>
 </td></tr>
 </table>
@@ -319,7 +366,6 @@ An AI recruiter avatar platform built in **2 weeks** that earned an **AI Enginee
 
 </div>
 
-<!-- ════════════════════════════════════  SNAKE (kept)  ════════════════════════════════════ -->
 ## 🐍 Watch My Contributions Get Eaten!
 
 <div align="center">
@@ -333,15 +379,15 @@ An AI recruiter avatar platform built in **2 weeks** that earned an **AI Enginee
 </div>
 
 <!-- ════════════════════════════════════  ACHIEVEMENTS  ════════════════════════════════════ -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1E1B4B,100:4C1D95&height=46&section=header&text=%F0%9F%8F%86%20%20Trophy%20Shelf&fontSize=22&fontColor=F0EEFF&fontAlignY=55" width="100%" alt="Trophy Shelf"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1E1B4B,100:4C1D95&height=46&section=header&text=%F0%9F%8F%86%20%20Recognition&fontSize=22&fontColor=F0EEFF&fontAlignY=55" width="100%" alt="Recognition"/>
 
 <div align="center">
 
 | | | |
 |:---:|:---:|:---:|
-| 🥇<br/>**Centific Hackathon 2.0**<br/><sub>Awarded AI Engineer internship offer</sub> | ☁️<br/>**Salesforce Mentorship**<br/><sub>SWE Mentee · Summer 2026</sub> | 🎓<br/>**9.12 CGPA**<br/><sub>B.Tech CSE @ KMIT</sub> |
-| 📐<br/>**97% Intermediate**<br/><sub>Top 3% statewide (MPC)</sub> | 🏫<br/>**10/10 SSC**<br/><sub>Perfect GPA</sub> | 🚀<br/>**PRAKALP Hackathon**<br/><sub>Bluetooth Talking Vehicle prototype</sub> |
-| 🔬<br/>**GenAI Workshop**<br/><sub>Skilligence × IIT Hyderabad</sub> | 🤖<br/>**Generative AI**<br/><sub>GreatLearning Certified</sub> | 📜<br/>**SQL (Intermediate)**<br/><sub>HackerRank Certified</sub> |
+| 🥇<br/>**Centific Premier Hackathon 2.0**<br/><sub>Winner · AI recruiter avatar platform built in 2 weeks · AI Engineer internship offer</sub> | 📄<br/>**AgentShield AI**<br/><sub>Co-author · accepted, to appear Jan 2027</sub> | ☁️<br/>**Salesforce Mentorship**<br/><sub>SWE Mentee · Summer 2026</sub> |
+| 🎓<br/>**9.12 CGPA**<br/><sub>B.Tech CSE @ KMIT · 2023–2027</sub> | 📐<br/>**97.0% Intermediate**<br/><sub>Top 3% statewide (MPC)</sub> | 🚀<br/>**PRAKALP & GfG Hackathons**<br/><sub>Bluetooth Talking Vehicle · end-to-end prototype</sub> |
+| 📜<br/>**SQL (Intermediate)**<br/><sub>HackerRank Certified</sub> | 🤖<br/>**Generative AI for Beginners**<br/><sub>GreatLearning Certified</sub> | 🔬<br/>**Generative AI Workshop**<br/><sub>Skilligence EdTech × IIT Hyderabad</sub> |
 
 </div>
 
@@ -354,28 +400,28 @@ An AI recruiter avatar platform built in **2 weeks** that earned an **AI Enginee
 
 ### 👩‍💻
 **Rewriting the Code**<br/>
-<sub>Contributor to a nonprofit supporting women in tech · 2026 – now</sub>
+<sub>Contributor to a nonprofit supporting women in tech · Jun 2026 – now</sub>
 
 </td>
 <td width="25%" align="center" valign="top">
 
 ### 🛠️
 **DBMS Workshop**<br/>
-<sub>Facilitated a peer technical workshop at KMIT</sub>
+<sub>Led a peer technical workshop on database systems at KMIT</sub>
 
 </td>
 <td width="25%" align="center" valign="top">
 
 ### 🫂
 **NSS Volunteer**<br/>
-<sub>5+ community drives · 40+ volunteer hours</sub>
+<sub>5+ service drives · 40+ volunteer hours · since 2023</sub>
 
 </td>
 <td width="25%" align="center" valign="top">
 
 ### 🎨
-**Graphic Design Intern**<br/>
-<sub>20+ digital & print assets reaching 2,000+ students</sub>
+**Graphic Designer Intern**<br/>
+<sub>KMIT Student Council PR · 20+ assets, 2,000+ reach</sub>
 
 </td>
 </tr>
@@ -386,9 +432,10 @@ An AI recruiter avatar platform built in **2 weeks** that earned an **AI Enginee
 
 <div align="center">
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&border=false" alt="Random dev quote"/>
+### 💌 Let's build something real.
+<sub>Looking for Software Engineering or AI/ML internships — or just say hi.</sub>
 
-### 💌 Building something where correctness matters? Let's talk.
+<br/><br/>
 
 <a href="https://vahini-dev.vercel.app/"><img src="https://img.shields.io/badge/View_Portfolio-A78BFA?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
 <a href="https://www.linkedin.com/in/venkata-vahini-chilukamarri-2b5064314/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
