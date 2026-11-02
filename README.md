@@ -3,7 +3,7 @@
 
 <img src="./assets/hero.svg" width="100%" alt="Venkata Vahini Chilukamarri — Software & AI Engineer"/>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2800&pause=800&color=A78BFA&center=true&vCenter=true&width=780&lines=%3E+morph.integrate(api_a%2C+api_b)++%E2%86%92+tests+shipped+with+the+code+%E2%9C%93;%3E+trace.recover(payment)++%E2%86%92+%2B42%25+revenue+vs+rules+%E2%9C%93;%3E+ledger.post(txn)++%E2%86%92+balanced+per+currency+%E2%9C%93;%3E+retry(txn)++%E2%86%92+replayed%2C+not+re-applied+%E2%9C%93;%3E+agentshield.patch(iac)++%E2%86%92+paper+accepted+%E2%9C%93;%3E+vahini.status()++%E2%86%92+open+to+SWE+%2B+AI+internships_" alt="Typing SVG"/></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2800&pause=800&color=A78BFA&center=true&vCenter=true&width=780&lines=%3E+morph.integrate(api_a%2C+api_b)++%E2%86%92+tests+shipped+with+the+code+%E2%9C%93;%3E+trace.recover(payment)++%E2%86%92+%2B42%25+revenue+vs+rules+%E2%9C%93;%3E+ledger.post(txn)++%E2%86%92+balanced+per+currency+%E2%9C%93;%3E+retry(txn)++%E2%86%92+replayed%2C+not+re-applied+%E2%9C%93;%3E+agentshield.patch(iac)++%E2%86%92+paper+accepted+%E2%9C%93;%3E+hackerrank.rank()++%E2%86%92+bronze+medal+%F0%9F%A5%89;%3E+vahini.status()++%E2%86%92+open+to+SWE+%2B+AI+internships_" alt="Typing SVG"/></a>
 
 <a href="https://vahini-dev.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-vahini--dev-A78BFA?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0D1117" alt="Portfolio"/></a>
 <a href="https://www.linkedin.com/in/venkata-vahini-chilukamarri-2b5064314/"><img src="https://img.shields.io/badge/LinkedIn-Connect-38BDF8?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" alt="LinkedIn"/></a>
@@ -32,6 +32,7 @@ public final class Vahini {
     String   school   = "KMIT · B.Tech CSE '27 · CGPA 9.12";
     String   recent   = "Salesforce Mentorship '26 · SWE Mentee";
     String   research = "AgentShield AI · accepted, Jan 2027";
+    String   medals   = "HackerRank Hackathon · Bronze 🥉";
 
     String[] builds   = { "LLM agents", "payment ledgers",
                           "eval pipelines", "observability tooling" };
@@ -383,6 +384,12 @@ A **Vision Transformer** classifies 4 road-damage types at **90%+ accuracy**; a 
 
 <div align="center">
 
+<img src="https://img.shields.io/badge/🥉_HackerRank_Hackathon-Bronze_Medalist-CD7F32?style=for-the-badge&labelColor=0D1117" alt="HackerRank Hackathon Bronze Medalist"/>
+
+<sub>[Hackathon name] · [Month Year] · [one line on what you built or how you ranked, e.g. "top 3 out of N participants"]</sub>
+
+<br/><br/>
+
 | | | |
 |:---:|:---:|:---:|
 | 🥇<br/>**Centific Premier Hackathon 2.0**<br/><sub>Winner · AI recruiter avatar platform built in 2 weeks · AI Engineer internship offer</sub> | 📄<br/>**AgentShield AI**<br/><sub>Co-author · accepted, to appear Jan 2027</sub> | ☁️<br/>**Salesforce Mentorship**<br/><sub>SWE Mentee · Summer 2026</sub> |
@@ -391,41 +398,75 @@ A **Vision Transformer** classifies 4 road-damage types at **90%+ accuracy**; a 
 
 </div>
 
-<!-- ════════════════════════════════════  BEYOND THE CODE  ════════════════════════════════════ -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1E1B4B,100:4C1D95&height=46&section=header&text=%F0%9F%8C%8D%20%20Beyond%20the%20Code&fontSize=22&fontColor=F0EEFF&fontAlignY=55" width="100%" alt="Beyond the Code"/>
+<!-- ════════════════════════════════════  SIDE QUESTS  ════════════════════════════════════ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1E1B4B,100:4C1D95&height=46&section=header&text=%F0%9F%8C%8D%20%20Side%20Quests&fontSize=22&fontColor=F0EEFF&fontAlignY=55" width="100%" alt="Side Quests"/>
+
+<div align="center">
+
+```java
+// commits aren't the only thing I ship
+Life life = new Life();
+life.add(new Quest("community"), new Quest("teaching"),
+         new Quest("service"),   new Quest("design"),
+         new Quest("competing"));
+life.run();   // XP earned in people, not just pull requests
+```
+
+</div>
 
 <table>
 <tr>
-<td width="25%" align="center" valign="top">
+<td width="20%" align="center" valign="top">
+
+<img src="https://img.shields.io/badge/QUEST_01-ACTIVE-22C55E?style=flat-square&labelColor=0D1117" alt="Quest 01 active"/>
 
 ### 👩‍💻
 **Rewriting the Code**<br/>
-<sub>Contributor to a nonprofit supporting women in tech · Jun 2026 – now</sub>
+<sub>Contributor at a nonprofit pushing for women in tech<br/><b>Jun 2026 → now</b></sub>
 
 </td>
-<td width="25%" align="center" valign="top">
+<td width="20%" align="center" valign="top">
+
+<img src="https://img.shields.io/badge/QUEST_02-COMPLETE-A78BFA?style=flat-square&labelColor=0D1117" alt="Quest 02 complete"/>
 
 ### 🛠️
 **DBMS Workshop**<br/>
-<sub>Led a peer technical workshop on database systems at KMIT</sub>
+<sub>Led a peer workshop on database systems at KMIT<br/><b>Level: Teacher</b></sub>
 
 </td>
-<td width="25%" align="center" valign="top">
+<td width="20%" align="center" valign="top">
+
+<img src="https://img.shields.io/badge/QUEST_03-ONGOING-38BDF8?style=flat-square&labelColor=0D1117" alt="Quest 03 ongoing"/>
 
 ### 🫂
 **NSS Volunteer**<br/>
-<sub>5+ service drives · 40+ volunteer hours · since 2023</sub>
+<sub>5+ service drives · 40+ hours<br/><b>Since 2023</b></sub>
 
 </td>
-<td width="25%" align="center" valign="top">
+<td width="20%" align="center" valign="top">
+
+<img src="https://img.shields.io/badge/QUEST_04-COMPLETE-A78BFA?style=flat-square&labelColor=0D1117" alt="Quest 04 complete"/>
 
 ### 🎨
-**Graphic Designer Intern**<br/>
-<sub>KMIT Student Council PR · 20+ assets, 2,000+ reach</sub>
+**Design Intern, KMIT PR**<br/>
+<sub>20+ assets · 2,000+ reach<br/><b>Pixels with purpose</b></sub>
+
+</td>
+<td width="20%" align="center" valign="top">
+
+<img src="https://img.shields.io/badge/QUEST_05-UNLOCKED-CD7F32?style=flat-square&labelColor=0D1117" alt="Quest 05 unlocked"/>
+
+### 🥉
+**HackerRank Hackathon**<br/>
+<sub>Bronze medalist<br/><b>[Month Year]</b></sub>
 
 </td>
 </tr>
 </table>
+
+<div align="center">
+<sub>🎮 <b>Skill tree:</b> Community ▰▰▰▰▱ · Teaching ▰▰▰▱▱ · Service ▰▰▰▰▱ · Design ▰▰▰▱▱ · Competing ▰▰▰▰▱</sub>
+</div>
 
 <!-- ════════════════════════════════════  FOOTER  ════════════════════════════════════ -->
 <br/>
